@@ -4,31 +4,33 @@
 let nomeDeHeroi = "Mãe"
 let xp = 100000
 let classe = "Clérigo"
-let heroi = [nomeDeHeroi, classe,xp]
 
 switch (true) {
     case xp <= 1000:
-        console.log("A Heroína de nome " + heroi[0] + " e classe " + heroi [1] + " está no nível de Ferro")
+        xp = "Ferro"
         break;
     case xp <= 2000:
-        console.log("A Heroína de nome " + heroi[0] + " e classe " + heroi [1] + " está no nível de Bronze")
+       xp = "Bronze"
         break;
     case xp <= 5000:
-        console.log("A Heroína de nome " + heroi[0] + " e classe " + heroi [1] + " está no nível de Prata")
+        xp = "Prata"
         break;
     case xp <= 7000:
-        console.log("A Heroína de nome " + heroi[0] + " e classe " + heroi [1] + " está no nível de Ouro")
+        xp = "Ouro"
         break;
     case xp <= 8000:
-        console.log("A Heroína de nome " + heroi[0] + " e classe " + heroi [1] + " está no nível de Platina")
+        xp = "Platina"
         break;
     case xp <= 9000:
-        console.log("A Heroína de nome " + heroi[0] + " e classe " + heroi [1] + " está no nível de Ascendente")
+        xp = "Ascendente"
         break;
     case xp <=10000:
-        console.log("A Heroína de nome " + heroi[0] + " e classe " + heroi [1] + " está no nível de Imortal")
+        xp = "Imortal"
         break;
     
     default:
-    console.log("A Heroína de nome " + heroi[0] + " e classe " + heroi [1] + " está no nível Radiante")
+    xp = "Radiante"
 }
+
+let heroi = [nomeDeHeroi, classe,xp]
+console.log("A Heroína de nome " + heroi[0] + ", classe, " + heroi[1] + ", está no nível " + heroi[2])
