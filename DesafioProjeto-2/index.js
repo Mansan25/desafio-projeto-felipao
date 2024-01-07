@@ -2,7 +2,6 @@
 //Retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas) (Ok)
 //Ao final deve se exibir uma mensagem: "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**" (Ok)
 
-
 function calcularBalanco(vitorias, derrotas){
 	let resuldado = vitorias - derrotas
     return resuldado
