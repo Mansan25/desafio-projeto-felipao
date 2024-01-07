@@ -1,6 +1,8 @@
-//Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador, depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
+//Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador. (Ok)
+//Retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas) (Ok)
+//Ao final deve se exibir uma mensagem: "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**" (Ok)
 
-//Função
+
 function calcularBalanco(vitorias, derrotas){
 	let resuldado = vitorias - derrotas
     return resuldado

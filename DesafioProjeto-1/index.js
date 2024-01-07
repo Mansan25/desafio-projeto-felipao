@@ -1,6 +1,6 @@
 //Crie uma variável para armazenar o nome do herói (Ok)
 //Crie uma variável para  armazenar a quantidade de experiência (XP) de um herói (Ok)
-//Depois utilize uma estrutura de decisão para apresentar alguma a mensagem "O Herói de nome **{nome}** está no nível de **{nivel}**" (Ok)
+//Depois utilize uma estrutura de decisão para apresentar a mensagem "O Herói de nome **{nome}** está no nível de **{nivel}**" (Ok)
 let nomeDeHeroi = "Mãe"
 let xp = 100000
 let classe = "Clérigo"
